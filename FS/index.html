@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate Listings</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="bg-blue-600 text-white p-4">
+    <h1 class="text-center text-3xl font-bold">Dream Home Real Estate</h1>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="w-full h-64 bg-cover bg-center" style="background-image: url('hero-image.jpg');">
+    <div class="h-full bg-black bg-opacity-50 flex items-center justify-center">
+      <div class="text-center text-white">
+        <h2 class="text-4xl">Find Your Dream Home</h2>
+        <p class="mt-2">Search through our latest listings to find the perfect property</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Search Bar -->
+  <section class="p-8">
+    <form class="grid grid-cols-1 sm:grid-cols-4 gap-4">
+      <input type="text" placeholder="Location" class="p-3 border rounded">
+      <input type="text" placeholder="Price Range" class="p-3 border rounded">
+      <select class="p-3 border rounded">
+        <option>Property Type</option>
+        <option>House</option>
+        <option>Apartment</option>
+      </select>
+      <button class="p-3 bg-blue-600 text-white rounded">Search</button>
+    </form>
+  </section>
+
+  <!-- Property Listings -->
+  <section class="grid grid-cols-1 sm:grid-cols-3 gap-8 p-8">
+    <div class="border rounded shadow hover:shadow-lg transition">
+      <img src="property1.jpg" alt="Property 1" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="font-bold text-lg">Beautiful Family Home</h3>
+        <p class="text-gray-600">$450,000</p>
+      </div>
+    </div>
+    <!-- More property cards here -->
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white p-4 text-center">
+    <p>&copy; 2024 Dream Home Real Estate</p>
+  </footer>
+</body>
+</html>

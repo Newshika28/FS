@@ -1,0 +1,264 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navbar */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f4b400;
+}
+
+/* Logo Styling */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('img4.jpg') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Welcome Page */
+.welcome {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.welcome h2 {
+    font-size: 3rem;
+}
+
+.btn {
+    background: #f4b400;
+    color: white;
+    padding: 0.75rem 2rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #333;
+}
+
+/* Search Bar */
+.search-bar {
+    background-color: #f9f9f9;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.search-bar h2 {
+    margin-bottom: 1.5rem;
+}
+
+.search-fields {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.search-input {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 180px;
+}
+
+/* Listings Section */
+.listings {
+    padding: 4rem 0;
+    background-color: #f4f4f4;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.carousel-item {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* About Section */
+.about {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.form-input {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-input textarea {
+    height: 150px;
+}
+
+/* Login Section */
+.login-section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#login-status {
+    margin-top: 1rem;
+    color: red;
+}
+
+/* Feature Section Styling */
+.feature-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;  /* Adds space between the feature items */
+}
+
+.feature-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;  /* Makes the feature items take up 30% of the container width */
+    transition: transform 0.3s;
+}
+
+.feature-item:hover {
+    transform: translateY(-10px);  /* Adds a hover effect for better interactivity */
+}
+
+.feature-item img {
+    width: 100%;  /* Makes the image fill the container */
+    height: 200px; /* Fixes the image height */
+    object-fit: cover; /* Ensures the image is cropped but maintains aspect ratio */
+    border-radius: 10px;
+}
+
+.feature-item h3 {
+    margin: 20px 0 10px;
+    font-size: 1.5rem;
+}
+
+.feature-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .feature-item {
+        width: 100%;  /* On smaller screens, each item will take up the full width */
+    }
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}

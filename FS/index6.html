@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dream Homes - Real Estate Agency</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Dream Homes</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#listings">Listings</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#login">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Discover Exclusive Properties in Your Area</h1>
+            <p>Explore a wide range of luxurious homes tailored to fit your lifestyle.</p>
+            <a href="#listings" class="btn">Start Your Search</a>
+        </div>
+    </section>
+
+    <!-- Image and Impressive Text Section -->
+    <section class="feature-section">
+        <div class="container">
+            <h2>Why Choose Dream Homes?</h2>
+            <div class="features">
+                <div class="feature-item">
+                    <img src="image1.jpg" alt="Luxury Homes">
+                    <h3>Premium Listings</h3>
+                    <p>Handpicked luxury homes in prime locations across India.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="image2.jpg" alt="Modern Design">
+                    <h3>Modern Designs</h3>
+                    <p>Featuring modern architecture and amenities suited for urban living.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="image3.jpg" alt="Family Homes">
+                    <h3>Family-Friendly Homes</h3>
+                    <p>Spacious homes perfect for families, with nearby schools and parks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-bar">
+        <div class="container">
+            <h2>Find Your Perfect Property</h2>
+            <div class="search-fields">
+                <input type="text" id="search-location" placeholder="Search by location" class="search-input">
+                <input type="number" id="search-price" placeholder="Max Price (₹)" class="search-input">
+                <select id="search-type" class="search-input">
+                    <option value="">Property Type</option>
+                    <option value="house">House</option>
+                    <option value="apartment">Apartment</option>
+                    <option value="villa">Villa</option>
+                </select>
+                <input type="number" id="search-rooms" placeholder="Min Rooms" class="search-input">
+                <button id="search-btn" class="btn">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Listings Carousel -->
+    <section id="listings" class="listings">
+        <div class="container">
+            <h2>Featured Listings</h2>
+            <div class="carousel">
+                <div class="carousel-item" data-location="delhi">
+                    <img src="image1.jpg" alt="Luxury Villa Delhi">
+                    <h3>Luxury Villa in Delhi</h3>
+                    <p>₹5,00,00,000 - 4 Beds, 3 Baths</p>
+                </div>
+                <div class="carousel-item" data-location="mumbai">
+                    <img src="image2.jpg" alt="Cozy Apartment Mumbai">
+                    <h3>Cozy Apartment in Mumbai</h3>
+                    <p>₹2,50,00,000 - 2 Beds, 2 Baths</p>
+                </div>
+                <div class="carousel-item" data-location="bangalore">
+                    <img src="image3.jpg" alt="Modern House Bangalore">
+                    <h3>Modern House in Bangalore</h3>
+                    <p>₹6,00,00,000 - 5 Beds, 4 Baths</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Dream Homes, we bring over 20 years of real estate expertise to help you find your ideal home. Our agency is dedicated to providing personalized service, whether you're buying or selling.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required class="form-input">
+                <input type="email" name="email" placeholder="Your Email" required class="form-input">
+                <textarea name="message" placeholder="Your Message" required class="form-input"></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Dream Homes. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script2.js"></script>
+</body>
+</html>
